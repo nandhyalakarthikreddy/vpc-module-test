@@ -10,4 +10,8 @@ module "vpc" {
 
     # private subnets
     private_subnet_cidrs = var.private_subnet_cidrs
+
+        # database subnets
+    database_subnet_cidrs = var.database_subnet_cidrs
+
 }
